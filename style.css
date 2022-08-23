@@ -8,7 +8,7 @@
     }
     
     .right-header {
-    color: #E5E7EB;
+    color:cornflowerblue;
     font-size: 18px;
     display: flex;
     gap: 18px;
@@ -16,9 +16,53 @@
     }
     
     .left-header {
-    color: #F9fAF8;
+    color:aqua;
     font-size: 24px;
     }
     a {
      display:flex;
     }
+    .header-details {
+background-color: darkslategrey;
+color:#E5E7EB;
+display: flex;
+flex:content;
+height: 300px;
+
+    }
+    .box {
+        display: flex;
+        flex-direction: row;
+    
+        margin-left: 100px;
+        gap: 150px;
+    }
+    #header {
+        width: 400px;
+        height: 200px;
+    }
+    #box-header {
+        
+        width: 200px;
+        height: 200px;
+    }
+    button {
+        background-color:deepskyblue;
+        color: #E5E7EB;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

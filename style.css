@@ -25,8 +25,7 @@
     .header-details {
 background-color: darkslategrey;
 color:#E5E7EB;
-display: flex;
-flex:content;
+flex: auto;
 height: 300px;
 
     }
@@ -51,13 +50,20 @@ height: 300px;
         color: #E5E7EB;
     }
     #images {
-        
-        
+      margin-top: 50px;  
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: center;
+      padding: 15px; 
     }
-
     figure {
-        
+        text-align: center;
+        width: 150px;
+        font-weight: bold;
+        color:darkslateblue;
     }
+    
+   
 
 
 
